@@ -1,0 +1,332 @@
+body{
+    text-align: center;
+background-color: #630000;
+
+}
+/* Navbar  */
+nav{
+  color: #E2703A;
+  background-color: #630000;
+}
+.navbar-brand{
+  color: #E2703A;
+}
+/* ******** */
+section{
+position: relative;
+}
+.CTA-btn{
+  margin-bottom: 4%;
+}
+.headline{
+ color: #EEB76B ;
+  background-color: #630000;
+  position: relative;
+  height: 570px;
+}
+.tagline{
+  color:#EEB76B ;
+  margin-right: 60px;
+margin-top: 120px;
+}
+.headline-container{
+  position: relative;
+  height: 100%;
+}
+/*  */
+/* Benefits Section */
+
+.c-img{
+max-width: 100%;
+max-height: 100%;
+}
+.c-inner{
+width: 200px;
+height: 200px;
+}
+.testimonial-section{
+  margin-top: 180px;
+height: 600px;
+}
+.c-inner-bottom{
+  margin-top: 10px;
+  width: 460px;
+  height: 260px;
+}
+.testimonial{
+  margin-left: 0%;
+}
+.testimonial-bottom{
+margin-left: 57%;
+
+}
+.left-testimonial{
+color: #EEB76B;
+}
+.c-top{
+  margin-left: 10%;
+  width: 210px;
+}
+
+/* Vehicle Samples */
+#cards_landscape_wrap-2{
+  text-align: center;
+  background: #E2703A;
+}
+#cards_landscape_wrap-2 .container{
+  padding-top: 80px; 
+  padding-bottom: 100px;
+}
+#cards_landscape_wrap-2 a{
+  text-decoration: none;
+  outline: none;
+}
+#cards_landscape_wrap-2 .card-flyer {
+  border-radius: 5px;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box{
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+  border-radius: 5px;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box img{
+  -webkit-transition:all .9s ease; 
+  -moz-transition:all .9s ease; 
+  -o-transition:all .9s ease;
+  -ms-transition:all .9s ease; 
+  width: 100%;
+  height: 200px;
+}
+#cards_landscape_wrap-2 .card-flyer:hover .image-box img{
+  opacity: 0.7;
+  -webkit-transform:scale(1.15);
+  -moz-transform:scale(1.15);
+  -ms-transform:scale(1.15);
+  -o-transform:scale(1.15);
+  transform:scale(1.15);
+}
+#cards_landscape_wrap-2 .card-flyer .text-box{
+  text-align: center;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+  padding: 30px 18px;
+}
+#cards_landscape_wrap-2 .card-flyer{
+  background: #9C3D54;
+  margin-top: 50px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+}
+#cards_landscape_wrap-2 .card-flyer:hover{
+  background: #E2703A;
+color: #fff;
+  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  margin-top: 50px;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box p{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px; 
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #EEB76B;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box h6{
+  margin-top: 0px;
+  margin-bottom: 4px; 
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Roboto Black', sans-serif;
+  letter-spacing: 1px;
+  color: #E2703A;
+}
+
+/* *********************************************** */
+/* Personel Section */
+/* styles reset */
+.card {
+  border:0;
+}
+.personel-img{
+ border-top-right-radius: 1px;
+ width: 264px;
+ height: 264px;
+ margin: 80px 85px 32px 85px;
+  border-radius: 50%;
+}
+.personel-section{
+  position: relative;
+  margin-top: 5%;
+  margin-left: 8%;
+  border-radius: 7%;
+  width: 90%;
+background-color: #E2703A;
+}
+.personel{
+  background-color: #E2703A;
+}
+/* card group aka PRIMARY */
+.card-group .card-primary:hover {
+  box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15);
+  z-index: 100;
+}
+.card-group .card-primary:hover .card-title{
+  color: #EEB76B;
+}
+.card-group .card-primary .card-img-top{
+  width:264px;
+  height:264px;
+  margin: 80px auto 32px;
+}
+.card-group .card-primary .card-body > .badge {
+  margin-bottom: 24px;
+}
+.card-group .card-primary .card-body {
+  padding: 0 32px;
+}
+.card-group .card-primary .card-title {
+  color: #fff;
+  font-size: 26px;
+  line-height: 1.54;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+.card-group .card-primary .card-text {
+  color: #261c6a;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.card-group .card-primary .card-footer {
+  padding: 48px 0 56px;
+  background: transparent;
+  border:0;
+}
+
+
+
+
+
+
+/* cards as ACCORDION */
+.accordion-container{
+  margin: 50px 0;
+}
+.accordion {
+  margin: 24px 100px;
+  box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15);
+  border: solid 1px #e9e8f3;
+}
+.accordion .card {
+  border-radius: 0;
+  margin:0;
+}
+
+.accordion .card:first-child {
+  border-bottom: solid 1px #e9e8f3;
+}
+.accordion .card:not(:first-of-type):not(:last-of-type){
+  border-bottom: solid 1px #e9e8f3;
+}
+
+
+.accordion .card-header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.6;
+  background-color: #fff;
+  border-radius: 0;
+  color: #261c6a;
+  padding: 36px 32px;
+  border-bottom-width: 0;
+}
+.accordion .card-header:hover {
+  color: #4e22d0;
+}
+.accordion .card:hover {
+  z-index: 99999;
+  box-shadow: 0 20px 40px -20px rgba(12, 5, 62, 0.4);
+}
+.accordion .card-header img {
+  padding-right: 16px;
+}
+.accordion .card-header span {
+  display: inline-block;
+  width: calc(100% - 60px);
+}
+.accordion .card-header + .list-group .list-group-item:first-child {
+  border-top: 1px;
+}
+.accordion .icon-btn {
+  float: right;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  background: #fff url('https://web-static.ff.int.avast.com/static3.avast.com/1/web/i/v2/components/plus-s-plum.png') no-repeat 50% 50%;
+  box-shadow: 0 12px 15px -4px rgba(12, 5, 62, 0.12);
+  border: solid 1.2px #d4d2e6;
+  border-radius: 24px;
+  /* -webkit-transition: background .3s;
+  transition: background .3s; */
+}
+.accordion .icon-btn:hover {
+  background: #4e22d0 url('https://web-static.ff.int.avast.com/static3.avast.com/1/web/i/v2/components/plus-s-white.png') no-repeat 50% 50%;
+  box-shadow: 0 12px 15px -4px rgba(78, 34, 208, 0.3), 0 12px 15px -4px rgba(12, 5, 62, 0.15);
+}
+.accordion .icon-btn:active {
+  background: #261c6a url('https://web-static.ff.int.avast.com/static3.avast.com/1/web/i/v2/components/plus-s-white.png') no-repeat 50% 50%;
+  box-shadow: 0 12px 15px -4px rgba(78, 34, 208, 0.3), 0 12px 15px -4px rgba(12, 5, 62, 0.15);
+}
+.accordion .card-body {
+  padding: 0 32px 40px;
+}
+
+
+/* PAGE LAYOUT */
+main{
+  padding:0 20px;
+  max-width:1361px;
+  margin:0 auto;
+}
+h2 {
+  margin-top: 40px;
+}
+/*  */
+.bottom-c-img{
+  width: 1000px;
+}
+/* **********Footer Section********* */
+/*  */
+/* for mobile */
+@media only screen and (max-width: 579px) {
+  .personel-section{
+    position: relative;
+    margin-top: 70%;
+    margin-left: 8%;
+    border-radius: 7%;
+    width: 90%;
+  background-color: #E2703A;
+  }
+  .personel-img{
+    border-top-right-radius: 1px;
+    width: 170px;
+    height: 170px;
+    margin: 40px 45px 16px 100px;
+     border-radius: 50%;
+  }
+  .testimonial-bottom{
+    pointer-events: none;
+  }
+}
